@@ -32,3 +32,254 @@
   background-color: #4f46e5;
   cursor: pointer;
 }
+
+.navbar{
+    display:felx;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #0f172a;  
+}
+
+.logo{
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-links{
+    list-style: none;
+    display: flex;
+    gap: 32px;
+    margin:0;
+    padding: 0;
+}
+
+.nav-links a{
+    color: #94a3b8;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-links a:hover{
+    color: #ffffff;
+}
+
+.about {
+  background-color: #0f172a;
+  padding: 80px 40px;
+  text-align: center;
+}
+
+.about-container {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.about h2 {
+  font-size: 36px;
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.about p {
+  font-size: 16px;
+  color: #94a3b8;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  line-height: 1.8;
+  margin-bottom: 16px;
+}
+
+.skills {
+  background-color: #0f172a;
+  padding: 80px 40px;
+  text-align: center;
+}
+
+.skills h2 {
+  font-size: 36px;
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.skills-container {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  flex-wrap: wrap;
+  max-width: 900px;
+  margin: 0 auto;
+  max-width: 700px;
+}
+
+.skill-card {
+  background-color: #1e293b;
+  padding: 32px 24px;
+  border-radius: 12px;
+  width: 180px;
+}
+
+.skill-card .skill-icon {
+  font-size: 36px;
+  display: block;
+  margin-bottom: 12px;
+}
+
+.skill-card h3 {
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.skill-card p {
+  color: #94a3b8;
+  font-family: 'Poppins', sans-serif;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+/*project section*/
+.projects {
+  background-color: #0a0f1e;
+  padding: 80px 40px;
+  text-align: center;
+}
+
+.projects h2 {
+  font-size: 36px;
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.projects-container {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  flex-wrap: wrap;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.project-card {
+  background-color: #1e293b;
+  padding: 32px 24px;
+  border-radius: 12px;
+  width: 380px;
+  text-align: left;
+}
+
+.project-card h3 {
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.project-card p {
+  color: #94a3b8;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  line-height: 1.7;
+  margin-bottom: 16px;
+}
+
+.project-tags {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.project-tags span {
+  background-color: #312e81;
+  color: #a5b4fc;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.project-btn {
+  display: inline-block;
+  background-color: #6366f1;
+  color: #ffffff;
+  padding: 10px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+.project-btn:hover {
+  background-color: #4f46e5;
+}
+
+/*Contact section*/
+.contact {
+  background-color: #0a0f1e;
+  padding: 80px 40px;
+  text-align: center;
+}
+
+.contact-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact h2 {
+  font-size: 36px;
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.contact p {
+  color: #94a3b8;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  line-height: 1.8;
+  margin-bottom: 32px;
+}
+
+.contact-btn {
+  display: inline-block;
+  background-color: #6366f1;
+  color: #ffffff;
+  padding: 14px 32px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.contact-btn:hover {
+  background-color: #4f46e5;
+}
+
+/*Footer section*/
+.footer {
+  background-color: #020617;
+  padding: 24px;
+  text-align: center;
+}
+
+.footer p {
+  color: #475569;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+}
