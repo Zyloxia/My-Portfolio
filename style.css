@@ -283,3 +283,25 @@
   font-family: 'Poppins', sans-serif;
   font-size: 14px;
 }
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+
+  .nav-links {
+    /* flex-direction: column; */
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+
+  .hero h1 {
+    font-size: 32px;
+  }
+
+  .hero .tagline {
+    font-size: 15px;
+  }
+}
